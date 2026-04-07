@@ -1,0 +1,9 @@
+import numpy as np
+
+# Create a random dataset
+data = np.random.randint(1, 100, size=10)
+
+print("Data:", data)
+print("Mean:", np.mean(data))
+print("Max:", np.max(data))
+print("Sorted:", np.sort(data))
