@@ -1,0 +1,14 @@
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6])
+
+# Reshape
+reshaped = arr.reshape(2, 3)
+print("Reshaped:\n", reshaped)
+
+# Flatten
+print("Flatten:", reshaped.flatten())
+
+# Transpose
+arr2 = np.array([[1, 2], [3, 4]])
+print("Transpose:\n", arr2.T)
