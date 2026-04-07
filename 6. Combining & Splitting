@@ -1,0 +1,13 @@
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+# Combine
+print("Concatenate:", np.concatenate((a, b)))
+print("Vertical Stack:\n", np.vstack((a, b)))
+print("Horizontal Stack:", np.hstack((a, b)))
+
+# Split
+arr = np.array([1, 2, 3, 4, 5, 6])
+print("Split:", np.split(arr, 3))
