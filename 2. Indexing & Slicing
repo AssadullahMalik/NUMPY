@@ -1,0 +1,18 @@
+import numpy as np
+
+arr = np.array([10, 20, 30, 40, 50])
+
+# Indexing
+print(arr[0])
+print(arr[-1])
+
+# Slicing
+print(arr[1:4])
+
+# 2D Array
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+
+print(arr2[0, 1])  # Row 0, Column 1
+
+# Boolean Indexing
+print(arr[arr > 25])
